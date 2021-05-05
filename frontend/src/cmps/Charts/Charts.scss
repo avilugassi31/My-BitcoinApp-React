@@ -1,0 +1,19 @@
+.chart-cmp {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .chart1 {
+        width: 50%;
+        border: 1px solid black;
+        margin-right:10px;
+        margin-left:10px;
+    }
+
+    .chart2 {
+        width: 50%;
+        border: 1px solid black;
+        margin-right:10px;
+    }
+}

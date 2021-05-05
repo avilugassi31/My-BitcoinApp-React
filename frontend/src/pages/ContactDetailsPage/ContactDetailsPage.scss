@@ -1,0 +1,108 @@
+.details {
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    h1 {
+        margin: 0 auto 10px;
+
+    }
+
+    .details-container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 12px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        width: 50%;
+        margin: 0 auto;
+
+        .user-details {
+            width: 100%;
+            height: 300px;
+
+            h1 {
+                color: rgb(126, 122, 122);
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius:12px 12px 0 0;
+            }
+        }
+
+        p {
+            color: black;
+            
+            text-align: center;
+        }
+
+        .moves-details-page {
+            .move-details {
+                color: black;
+            }
+
+            ul {
+                list-style-type: none;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+                li {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .user-title {
+                        color: black;
+                    }
+                }
+            }
+
+            h1,
+            h2 {
+                text-transform: capitalize;
+                font-size: 1.2rem;
+                font-weight: 400;
+                font-family: cursive;
+
+            }
+        }
+
+        .details-buttons {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                cursor: pointer;
+                margin-right: 5px;
+                margin-bottom: 10px;
+
+                img {
+                    width: 20px;
+                }
+            }
+
+            button {
+                cursor: pointer;
+                margin-right: 5px;
+                margin-left: 5px;
+                margin-bottom: 10px;
+                border: none;
+                background-color: rgb(255, 255, 255);
+
+                img {
+                    width: 20px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,45 @@
+.App-Header {
+    background-color: rgba(243, 241, 241, 0.984);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .first-child {
+        margin-inline-start: 70px;
+
+        img {
+            width: 50%;
+        }
+    }
+
+    .second-child {
+        margin-inline-end: 70px;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+
+
+            li {
+                margin-right: 15px;
+
+                img {
+                    width:20px;
+                }
+
+                a {
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    color: white;
+                    text-transform: uppercase;
+                }
+
+                a:hover {
+                    text-decoration: underline;
+                    transition: 0.3;
+                }
+            }
+        }
+
+    }
+}

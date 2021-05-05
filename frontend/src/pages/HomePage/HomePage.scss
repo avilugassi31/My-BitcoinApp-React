@@ -1,0 +1,23 @@
+.home-page {
+    height: 84.2vh;
+    width: 100%;
+    background-color: #fff;
+
+    .user-profile {
+        display: flex;
+        flex-direction: column;
+        margin-inline-start: 50px;
+
+        h1,
+        h2,
+        h3 {
+            font-family: cursive;
+            font-weight: bold;
+            font-size: 1rem;
+            text-transform: uppercase;
+            color: rgb(124, 124, 124);
+        }
+
+
+    }
+}

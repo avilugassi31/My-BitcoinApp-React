@@ -1,0 +1,26 @@
+.move-list {
+
+
+    ul {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(100px, 1fr));
+
+        li {
+            background-color: rgb(211, 50, 50);
+            margin-inline-start: 85px;
+            margin-inline-end: 85px;
+        }
+    }
+
+    h1,
+    h2 {
+        text-transform: capitalize;
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-family: cursive;
+        color: white;
+        text-align: left;
+
+    }
+}
